@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj": {}
+    "c:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj": {
+    "c:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj",
+        "projectUniqueName": "c:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj",
         "projectName": "SampleSecureWeb",
-        "projectPath": "C:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj",
+        "projectPath": "c:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\SampleSecureWeb.csproj",
         "packagesPath": "C:\\Users\\M S I\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\obj\\",
+        "outputPath": "c:\\Users\\M S I\\Downloads\\KTI\\SampleSecureWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\M S I\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
